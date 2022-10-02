@@ -28,6 +28,10 @@
     margin-bottom: 100px;
   }
 
+  .statistics-list {
+    padding-bottom: 6.25rem;
+  }
+
   h2 {
     text-align: start;
   }
@@ -74,6 +78,12 @@
     box-shadow: 0 0.5rem 0.63rem var(--Shadow);
   }
 
+  .hero-btn:hover,
+  .cta-btn:hover {
+    width: 340px;
+    background-color: var(--Light-Pink);
+  }
+
   .cta-section {
     min-height: 31.25rem;
     display: flex;
@@ -96,6 +106,8 @@
   .footer-inner {
     flex-direction: row;
     justify-content: space-between;
+    /* padding: 88px 60px; */
+    padding: 88px 100px;
   }
 
   .company-info {

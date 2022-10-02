@@ -144,6 +144,7 @@ header {
 }
 
 h1 {
+  max-width: 1240px;
   font-size: clamp(1.38rem, calc(0.1rem + 5.45vw), 5rem);
   margin-bottom: 1.25rem;
   font-family: "Poppins", sans-serif;
@@ -197,6 +198,12 @@ h1 {
 /* STATISTICS SECTION */
 /**************************/
 
+.statistics-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .statistics-list {
   display: flex;
   flex-direction: column;
@@ -204,7 +211,7 @@ h1 {
   align-self: center;
   gap: 100px;
   text-align: center;
-  padding-bottom: 6.25rem;
+  padding-bottom: 60px;
 }
 
 .communities {
@@ -323,12 +330,12 @@ h1 {
   padding: 18px 22px;
   border-radius: 3.13rem;
   box-shadow: 0 0.5rem 0.63rem var(--Shadow);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
 .cta-btn:hover {
-  width: 21.25rem;
-  cursor: pointer;
+  width: 220px;
   background-color: var(--Light-Pink);
 }
 
@@ -365,7 +372,7 @@ footer a {
 }
 
 .company-info {
-  max-width: 400px;
+  max-width: 340px;
   text-align: center;
 }
 
@@ -406,6 +413,12 @@ footer a {
   color: var(--White);
 }
 
+.social-media-container i:hover,
+.phone:hover,
+.email:hover {
+  color: aqua;
+}
+
 .newsletter-container {
   max-width: 400px;
   display: flex;
@@ -436,4 +449,9 @@ input {
 .newsletter-btn {
   padding: 14px 32px;
   border-radius: 6px;
+  cursor: pointer;
+}
+
+.newsletter-btn:hover {
+  background-color: var(--Light-Pink);
 }
