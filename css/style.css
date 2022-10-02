@@ -88,6 +88,7 @@ h2 {
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.25rem;
+  transition: var(--Transition);
 }
 
 .section-paragraph {
@@ -95,10 +96,12 @@ h2 {
   font-size: clamp(0.88rem, calc(0.83rem + 0.19vw), 1rem);
   text-align: center;
   line-height: 1.69rem;
+  transition: var(--Transition);
 }
 
 .img-container {
   max-width: 32.5rem;
+  transition: var(--Transition);
 }
 
 .together-section,
@@ -121,6 +124,7 @@ header {
   justify-content: center;
   align-items: flex-start;
   padding: 50px 50px;
+  transition: var(--Transition);
 }
 
 .header-btn {
@@ -160,6 +164,7 @@ h1 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: var(--Transition);
 }
 
 @keyframes gradient {
@@ -185,6 +190,7 @@ h1 {
   max-width: 43.75rem;
   font-size: clamp(0.88rem, calc(0.7rem + 0.75vw), 1.38rem);
   margin-bottom: 3.13rem;
+  transition: var(--Transition);
 }
 
 .hero-btn {
@@ -203,6 +209,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: var(--Transition);
 }
 
 .statistics-list {
@@ -268,6 +275,7 @@ h1 {
   align-items: center;
   gap: 5.63rem;
   padding: 80px 20px;
+  transition: var(--Transition);
 }
 
 /**************************/
@@ -281,6 +289,7 @@ h1 {
   align-items: center;
   gap: 5.63rem;
   padding: 80px 20px;
+  transition: var(--Transition);
 }
 
 /**************************/
@@ -294,6 +303,7 @@ h1 {
   align-items: center;
   gap: 5.63rem;
   padding: 80px 20px;
+  transition: var(--Transition);
 }
 
 /**************************/
@@ -306,6 +316,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: var(--Transition);
 }
 
 .cta-heading {
