@@ -1,3 +1,21 @@
+@media (hover: hover) {
+  .hero-btn:hover,
+  .cta-btn:hover {
+    width: 220px;
+    background-color: var(--Light-Pink);
+  }
+
+  .social-media-container i:hover,
+  .phone:hover,
+  .email:hover {
+    color: var(--Pink);
+  }
+
+  .newsletter-btn:hover {
+    background-color: var(--Light-Pink);
+  }
+}
+
 /* ***************************** */
 /* TABLETS */
 /* ***************************** */

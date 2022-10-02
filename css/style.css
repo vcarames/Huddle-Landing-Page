@@ -346,12 +346,6 @@ h1 {
   cursor: pointer;
 }
 
-.hero-btn:hover,
-.cta-btn:hover {
-  width: 220px;
-  background-color: var(--Light-Pink);
-}
-
 /**************************/
 /* FOOTER SECTION */
 /**************************/
@@ -430,12 +424,6 @@ footer {
   transition: var(--Transition);
 }
 
-.social-media-container i:hover,
-.phone:hover,
-.email:hover {
-  color: var(--Pink);
-}
-
 .newsletter-container {
   max-width: 400px;
   display: flex;
@@ -467,10 +455,6 @@ input {
   padding: 14px 32px;
   border-radius: 6px;
   cursor: pointer;
-}
-
-.newsletter-btn:hover {
-  background-color: var(--Light-Pink);
 }
 
 /* ***************************** */
