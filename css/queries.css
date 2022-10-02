@@ -1,0 +1,125 @@
+@media (min-width: 700px) {
+  header {
+    min-height: 340px;
+    justify-content: space-between;
+    /* padding: 50px 50px; */
+    /* padding: 5rem 3.13rem 13.75rem 3.13rem; */
+  }
+
+  .header-btn {
+    display: block;
+    color: var(--Pink);
+    padding: 0.5rem 1.88rem;
+    border-radius: 3.13rem;
+    border: 0.13rem solid var(--Pink);
+    transition: 0.5s ease-in-out;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 4.38rem;
+  }
+
+  .hero-btn,
+  .hero-img {
+    margin-bottom: 100px;
+  }
+
+  h2 {
+    text-align: start;
+  }
+
+  .section-paragraph {
+    text-align: start;
+  }
+
+  .statistics-list {
+    display: flex;
+    flex-direction: row;
+    gap: 5.63rem;
+    padding: 88px 60px;
+  }
+
+  .together-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5.63rem;
+    padding: 88px 60px;
+  }
+
+  .conversation-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5.63rem;
+    padding: 88px 60px;
+  }
+
+  .users-flexbox {
+    display: flex;
+    flex-direction: row;
+    gap: 5.63rem;
+    padding: 88px 60px;
+  }
+
+  .hero-btn,
+  .cta-btn {
+    width: 400px;
+    font-size: clamp(0.88rem, calc(0.74rem + 0.56vw), 1.25rem);
+    font-weight: 600;
+    padding: 27.04px 30.08px;
+    border-radius: 3.13rem;
+    box-shadow: 0 0.5rem 0.63rem var(--Shadow);
+  }
+
+  .cta-section {
+    min-height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ***************************** */
+  /* FOOTER */
+  /* ***************************** */
+}
+
+@media (min-width: 1100px) {
+  footer {
+    padding: 50px 70px;
+    background: var(--Dark-Cyan);
+  }
+
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .company-info {
+    text-align: start;
+  }
+
+  .company-contact {
+    align-items: flex-start;
+  }
+
+  .social-media-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .newsletter-container {
+    max-width: 500px;
+
+    flex-direction: column;
+
+    text-align: start;
+  }
+
+  form {
+    flex-direction: row;
+  }
+}
