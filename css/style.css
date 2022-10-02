@@ -11,6 +11,8 @@
   --Light-Gray: hsl(200, 1%, 55%);
   --White: hsl(0, 0%, 100%);
   --Shadow: hsl(211, 30%, 86%);
+
+  --Transition: 0.8s ease;
 }
 
 /**************************/
@@ -74,7 +76,6 @@ header,
 .users-flexbox {
   max-width: 90rem;
   margin: 0 auto;
-  /* background: aquamarine; */
 }
 
 /**************************/
@@ -161,7 +162,7 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-/* @keyframes gradient {
+@keyframes gradient {
   0% {
     background-position: 0 50%;
   }
@@ -173,7 +174,7 @@ h1 {
   100% {
     background-position: 0 50%;
   }
-} */
+}
 
 .hero-heading {
   font-family: "Poppins", sans-serif;
@@ -207,7 +208,7 @@ h1 {
 .statistics-list {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-self: center;
   gap: 100px;
   text-align: center;
@@ -262,11 +263,11 @@ h1 {
 
 .together-flex {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   gap: 5.63rem;
-  padding: 48px 20px;
+  padding: 80px 20px;
 }
 
 /**************************/
@@ -275,11 +276,11 @@ h1 {
 
 .conversation-flex {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   gap: 5.63rem;
-  padding: 48px 20px;
+  padding: 80px 20px;
 }
 
 /**************************/
@@ -288,11 +289,11 @@ h1 {
 
 .users-flexbox {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   gap: 5.63rem;
-  padding: 48px 20px;
+  padding: 80px 20px;
 }
 
 /**************************/
@@ -350,6 +351,7 @@ h1 {
 } */
 
 footer {
+  color: var(--White);
   padding: 50px 20px;
   background: var(--Dark-Cyan);
 }
@@ -360,11 +362,6 @@ footer {
   flex-direction: column-reverse;
   align-items: center;
   margin: 0 auto;
-}
-
-footer p,
-footer a {
-  color: var(--White);
 }
 
 .footer-paragraph {
@@ -402,21 +399,29 @@ footer a {
 .company-contact-phone i,
 .company-contact-email i {
   font-size: 30px;
-  color: var(--White);
+}
+
+.company-contact-phone a,
+.company-contact-email a {
+  transition: var(--Transition);
 }
 
 .social-media-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   font-size: 30px;
-  color: var(--White);
+  transition: var(--Transition);
+}
+
+.social-media-container i {
+  transition: var(--Transition);
 }
 
 .social-media-container i:hover,
 .phone:hover,
 .email:hover {
-  color: aqua;
+  color: var(--Pink);
 }
 
 .newsletter-container {
@@ -454,4 +459,14 @@ input {
 
 .newsletter-btn:hover {
   background-color: var(--Light-Pink);
+}
+
+/* ***************************** */
+/* INPUT */
+/* ***************************** */
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
 }
