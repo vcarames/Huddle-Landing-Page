@@ -259,7 +259,7 @@ h1 {
   font-weight: 700;
 }
 
-.statistics p span {
+.statistics span {
   font-size: clamp(0.88rem, calc(0.65rem + 0.94vw), 1.5rem);
   color: var(--Light-Gray);
 }
