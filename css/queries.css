@@ -44,7 +44,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 340px;
+    gap: 200px;
+    /* gap: 340px; */
 
     /* NEED TO FIND A BETTER WAY TO CREATE THE GAP */
     padding: 88px 60px;
@@ -96,6 +97,11 @@
   }
 }
 
+@media (min-width: 1000px) {
+  .statistics-list {
+    gap: 340px;
+  }
+}
 /* ***************************** */
 /* FOOTER */
 /* ***************************** */
