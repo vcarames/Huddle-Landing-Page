@@ -1,6 +1,10 @@
+/* ***************************** */
+/* TABLETS */
+/* ***************************** */
+
 @media (min-width: 700px) {
   header {
-    min-height: 340px;
+    min-height: 240px;
     justify-content: space-between;
     padding: 80px 50.08px 0 50.08px;
   }
@@ -73,14 +77,20 @@
   }
 }
 
+/* ***************************** */
+/* LAPTOP - DESKTOP */
+/* ***************************** */
+
 @media (min-width: 1000px) {
+  header {
+    min-height: 340px;
+    justify-content: space-between;
+    padding: 80px 50.08px 0 50.08px;
+  }
   .statistics-list {
     gap: 340px;
   }
 }
-/* ***************************** */
-/* FOOTER */
-/* ***************************** */
 
 @media (min-width: 1100px) {
   footer {
